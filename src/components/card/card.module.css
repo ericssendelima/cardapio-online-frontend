@@ -1,0 +1,86 @@
+@media (max-width: 600px) {
+  .cardContainer {
+    /* background-color: var(--color-red-2); */
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    height: 120px;
+    width: 90%;
+    border: 1px dashed var(--color-black-6);
+    border-radius: 15px;
+  }
+
+  .imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 35%;
+
+    img {
+      width: 100px;
+    }
+  }
+
+  .cardBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(28, 90, 69); */
+    width: 65%;
+    height: 100%;
+    padding-left: 10px;
+  }
+
+  .titulo {
+    font-weight: bold;
+    /* background-color: blueviolet; */
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5px;
+    font-size: var(--size-xlg);
+  }
+  .pesoContainer {
+    height: 30px;
+    /* background-color: aquamarine; */
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .peso {
+    border-radius: 12px;
+  }
+
+  .buttonContainer {
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span{
+        margin-bottom: 5px;
+        color: var(--color-red-7);
+        font-weight: bold;
+    }
+  }
+
+  .buttonPlus {
+    background-color: var(--color-red-7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 30px;
+    border-radius: 12px;
+    margin: 10px 10px 15px;
+
+    svg {
+      color: var(--color-black-11);
+    }
+  }
+}

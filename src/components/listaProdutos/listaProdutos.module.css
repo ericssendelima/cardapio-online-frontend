@@ -1,0 +1,23 @@
+@media (max-width: 600px) {
+  .listaProdutosContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-light);
+    width: 100%;
+    min-height: 80vh;
+    margin-bottom: 20px;
+  }
+
+  .tituloSecao {
+    width: 90%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    span {
+      font-weight: bold;
+      font-size: var(--size-xxl);
+    }
+  }
+}

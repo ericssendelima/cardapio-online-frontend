@@ -1,0 +1,163 @@
+.homeContainer {
+  background-color: var(--background-red);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .homeContainer {
+    overflow: hidden;
+  }
+  .topBackground {
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .legumesFundo {
+    max-width: 900px;
+    width: 200vw;
+    margin-top: -350px;
+    opacity: 0.6;
+  }
+
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .logoWhite {
+    width: 60%;
+  }
+  .semiCirculo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 150%;
+    height: 50%;
+    background-color: var(--background-light);
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
+    padding-top: 100px;
+    margin-top: 150px;
+    color: var(--fontColor-dark);
+  }
+
+  .semiCirculoHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: rgb(42, 165, 142); */
+  }
+
+  .topTextContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    /* background-color: aquamarine; */
+    font-size: var(--size-xl);
+    font-weight: bold;
+  }
+
+  .topText01 {
+    color: var(--fontColor-red);
+  }
+
+  .topText02 {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+  }
+
+  .bottomText {
+    font-size: var(--size-xsm);
+    padding: 0 25px;
+    margin-top: 8px;
+    /* background-color: blueviolet; */
+  }
+  .semiCirculoFooter {
+    /* background-color: rgb(168, 168, 196); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100px;
+    margin-bottom: 70px;
+  }
+
+  .botao {
+    background-color: var(--color-black-2);
+    height: 50px;
+    width: 200px;
+    font-size: var(--size-lg);
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 0;
+    color: var(--fontColor-dark);
+    border: none;
+  }
+
+  .bagIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-red);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+
+    :not(svg) {
+      color: var(--color-black-11);
+      transform: scale(0.6) translate(35%, 30%);
+    }
+  }
+
+  .spanButton {
+    font-size: var(--size-xs);
+    margin-top: 3px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .homeContainer {
+    overflow: hidden;
+  }
+  .legumesFundo {
+    width: 190vw;
+    min-width: 700px;
+    margin-top: -300px;
+  }
+
+  .semiCirculo {
+    margin-top: 80px;
+    width: 180%;
+    padding-bottom: 30px;
+    padding-top: 50px;
+  }
+  .semiCirculoHeader {
+    /* background-color: aquamarine; */
+    padding: 0 40vw;
+    height: 20vh;
+  }
+  .bottomText {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .semiCirculoFooter{
+    margin-bottom: 30px;
+  }
+}

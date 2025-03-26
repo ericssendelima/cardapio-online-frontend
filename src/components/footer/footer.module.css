@@ -1,0 +1,52 @@
+@media (max-width: 600px) {
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background-color: var(--color-black-13);
+    width: 100dvw;
+    padding: 15px 15px 5px;
+    font-size: var(--size-xxsm);
+
+    span{
+      color: var(--color-black-1);
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .logoContainer {
+    /* display: flex;
+        align-items: center;
+        justify-content: space-between; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    /* background-color: #193725; */
+    /* width: 100%; */
+    img {
+      width: 20vw;
+    }
+    .icons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      /* background-color: #172029; */
+      width: 13vw;
+      margin: 0;
+    }
+  }
+
+  .bottomText {
+    display: flex;
+  }
+}

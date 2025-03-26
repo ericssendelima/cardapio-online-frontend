@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+  .cardapioContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--background-light);
+    color: var(--fontColor-dark);
+    min-height: 100vh;
+  }
+
+
+  
+
+}

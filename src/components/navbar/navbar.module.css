@@ -1,0 +1,25 @@
+@media (max-width: 600px) {
+  .navbarContainer {
+    background-color: var(--color-red-1);
+    min-height: 0;
+  }
+
+  .logoContainer {
+    /* background-color: aquamarine; */
+    margin-left: 5px;
+
+    img {
+      width: 80px;
+      margin-bottom: 2px;
+    }
+  }
+
+  .cartContainer{
+    margin-right: 15px;
+  }
+
+  .userImgContainer{
+    margin-right: 5px;
+  }
+
+}

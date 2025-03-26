@@ -1,0 +1,40 @@
+@media (max-width: 600px) {
+  .filtroContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* background-color: brown; */
+    width: 90%;
+    margin-top: 5px;
+  }
+  .nomeFiltro {
+    /* background-color: blueviolet; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    span {
+      font-weight: bold;
+      font-size: var(--size-xxl);
+      color: var(--color-black-11);
+    }
+  }
+
+  .botoesFiltro {
+    width: 100%;
+    /* background-color: cadetblue; */
+    padding: 8px 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-color: transparent;
+
+
+    input {
+      height: 25px;
+      border-radius: 12px;
+
+    }
+  }
+}

@@ -1,0 +1,72 @@
+/* Light Theme */
+:root {
+  --primary-color: #4caf50;
+  --secondary-color: #ff9800;
+  --accent-color: #5e2312;
+  --neutral-color: #607d8b;
+  --base-color: #191E24;
+  --info-color: #2196f3;
+  --success-color: #4caf50;
+  --warning-color: #ff9800;
+  --error-color: #f44336;
+
+  --color-red-1: #fff0f2;
+  --color-red-2: #ffdde1;
+  --color-red-3: #ffc1c8;
+  --color-red-4: #ff95a1;
+  --color-red-5: #ff596c;
+  --color-red-6: #ff263f;
+  --color-red-7: #fc0622;
+  --color-red-8: #e2001a;
+  --color-red-9: #af0519;
+  --color-red-10: #900c1b;
+  --color-red-11: #500009;
+
+  --color-black-1: #f6f6f6;
+  --color-black-2: #e7e7e7;
+  --color-black-3: #d1d1d1;
+  --color-black-4: #b0b0b0;
+  --color-black-5: #888888;
+  --color-black-6: #6d6d6d;
+  --color-black-7: #5d5d5d;
+  --color-black-8: #4f4f4f;
+  --color-black-9: #454545;
+  --color-black-10: #3d3d3d;
+  --color-black-11: #0e101f;
+  --color-black-12: #010101;
+  --color-black-13: #191E24;
+
+  --fontColor-red: #e2001a;
+  --fontColor-dark: #000000;
+  --fontColor-light: #ffffff;
+  /* Cores de background */
+  --background-red: #e2001a;
+  --background-light: #ffffff;
+  --background-dark: #0e101f;
+
+  /* Font sizes */
+  --size-xs: 10px;
+  --size-sm: 11px;
+  --size-xsm: 12px;
+  --size-xxsm: 13px;
+  --size-md: 14px;
+  --size-lg: 16px;
+  --size-xlg: 18px;
+  --size-xl: 20px;
+  --size-xxl: 22px;
+  --size-b: 26px;
+  --size-xb: 29px;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --primary-color: #4caf50;
+  --secondary-color: #ff9800;
+  --accent-color: #ff5722;
+  --neutral-color: #607d8b;
+  --base-color: #303030;
+  --info-color: #2196f3;
+  --success-color: #4caf50;
+  --warning-color: #ff9800;
+  --error-color: #f44336;
+}
