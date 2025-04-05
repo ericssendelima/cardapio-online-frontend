@@ -1,145 +1,252 @@
-@media (max-width: 600px){
-    .modalContainer{
-        display: flex;
-        flex-direction:column-reverse ;
-        /* background-color: aquamarine; */
+@media (max-width: 600px) {
+  .modalContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    /* background-color: aquamarine; */
+  }
+
+  .modalView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 98dvh;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: var(--background-light);
+    color: var(--fontColor-dark);
+    padding: 10px;
+  }
+
+  .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    /* background-color: aqua; */
+  }
+
+  .voltar {
+    /* background-color: aqua; */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      font-size: 30px;
     }
-    
-    .modalView{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        height: 98dvh;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-        background-color: var(--background-light);
-        color: var(--fontColor-dark);
-        padding: 10px;
+  }
+  .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-right: 10px; */
+    font-weight: bold;
+    font-size: var(--size-b);
+    /* background-color: blueviolet; */
+    width: 100%;
+  }
+
+  .botaoCarrinho {
+    /* background-color: blueviolet; */
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      width: 30px;
+    }
+  }
+
+  .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 220px;
+    }
+  }
+
+  .body {
+    /* background-color: brown; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 10px 0;
+  }
+
+  .bodyHeader {
+    /* background-color: aquamarine; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span {
+      font-size: var(--size-xxsm);
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+    }
+  }
+  .spanOpcao {
+    margin-right: 90px;
+  }
+
+  .descricaoContainer {
+    /* background-color: cadetblue; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .descricaoHeader {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 25px;
+  }
+
+  .descricao {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 5px;
+    /* background-color: aquamarine; */
+    font-weight: bold;
+  }
+
+  .descricaoBody {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: flex-start;
+    font-size: var(--size-xxsm);
+    height: 30px;
+  }
+  .fieldsetContainer {
+    /* background-color: #4a33cd; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+    /* height: 50px; */
+
+    select {
+      background-color: var(--color-red-6);
+      height: auto;
+      color: var(--fontColor-light);
+      padding-left: 8px;
+    }
+  }
+
+  .buildMarmitasContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* background-color: chocolate; */
+    border-top: 1px dashed #000;
+    width: 100%;
+    height: 65%;
+    padding: 0;
+
+    span {
+      margin: 0 10px;
+    }
+  }
+
+  .tipoPedido {
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+
+
+    span:first-child {
+    /* background-color: aqua; */
+      font-weight: bold;
+      margin-right: 0;
+    }
+  }
+
+  .visorMarmitas {
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    margin-top: 5px;
+    margin-bottom: 25px;
+
+    section {
+      position: relative;
+      border: 1px dashed #000;
+      border-radius: 12px;
+      width: 30%;
+      height: 100%;
+      margin: 0 8px;
     }
 
-    .header{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 5px;
-        /* background-color: aqua; */
+    & section:only-child {
+      width: 100%;
     }
-    
-    .voltar{
-        /* background-color: aqua; */
-        width: 40px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-        svg{
-            font-size: 30px;
-        }
-    }
-    .titulo{
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        padding-right: 10px;
-        font-weight: bold;
-        font-size: var(--size-b);
-        /* background-color: blueviolet; */
-        width: 100%;
-    }
-    
-    .img{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        img{
-            width: 220px;
-        }
-    }
-    
-    .body{
-        /* background-color: brown; */
-        width: 100%;
-        height: 15%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        padding: 10px 10px;
-        
-        
-    }
-    
-    .descricao{
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        padding-top: 5px;
-        /* background-color: aquamarine; */
-        width: 100%;
-        height: 70%;
-    }
-    
-    .buildMarmitasContainer{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        /* background-color: chocolate; */
-        width: 100%;
-        height: 65%;
-        padding: 10px 0;
+  }
 
-        span{
-            margin: 0 10px;
-        }
+  .adesivo3x {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-red-6);
+    border: 3px solid var(--color-black-11);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: var(--size-xlg);
+    color: var(--fontColor-light);
 
-        section{
-            /* background-color: aquamarine; */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            height: 100%;margin-top: 5px;
-        }
+    top: -8px;
+    left: -22px;
+  }
 
-        div{
-            border: 1px dashed #000;
-            border-radius: 12px;
-            width:30%;
-            height: 100%;
-            margin: 0 5px;
+  .footer {
+    /* background-color: darkseagreen; */
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+  }
 
-        }
-    }
+  .preco {
+    font-weight: bold;
+    font-size: var(--size-xxl);
+  }
 
-    .footer{
-        /* background-color: darkseagreen; */
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: space-between;
-        height: 50px;
-    }
-
-    .preco{
-        font-weight: bold;
-        font-size: var(--size-xxl);
-    }
-
-    .addCart{
-        background-color: var(--background-red);
-        color: var(--fontColor-light);
-        width: 90px;
-        height: 40px;
-        border-radius: 25px;
-        font-weight: bold;
-        font-size: var(--size-xsm);
-
-    }
+  .addCart {
+    background-color: var(--background-red);
+    color: var(--fontColor-light);
+    width: 90px;
+    height: 40px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: var(--size-xsm);
+  }
 }
 
 /* @media (max-width: 400px){

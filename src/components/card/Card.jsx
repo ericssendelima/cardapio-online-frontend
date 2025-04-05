@@ -17,7 +17,6 @@ const Card = ({ data }) => {
     setIsModalOpen(true);
   };
 
-
   return (
     <div className={classes.cardContainer}>
       <div className={classes.imgContainer}>
@@ -32,10 +31,13 @@ const Card = ({ data }) => {
           <span>{precoFormatado}</span>
           <button className={classes.buttonPlus} onClick={openModal}>
             <FaCartPlus />
+            <span>Adicionar</span>
           </button>
         </div>
       </div>
-      {isModalOpen && <ModalProdutoDetalhes config={{data, setIsModalOpen}} />}
+      {isModalOpen && (
+        <ModalProdutoDetalhes config={{ data, setIsModalOpen }} />
+      )}
     </div>
   );
 };
